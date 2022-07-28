@@ -1,0 +1,26 @@
+.Container{
+    background-color: #36C5F0;
+    width: 90px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    /* ABSOLUTE POSITIONING */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Container:hover{
+    background-color: #1264A3;
+}
+
+
+.Rectangle{
+    border-top: 10px solid transparent;
+	border-left: 20px solid white;
+	border-bottom: 10px solid transparent;
+}

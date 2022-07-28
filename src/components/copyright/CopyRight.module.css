@@ -1,0 +1,73 @@
+.Contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.Links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Link{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.Social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.Download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1d58ac;
+    cursor: pointer;
+}
+
+.Download img{
+    width: 20px;
+    height: 20px;
+}
+
+.SocialIcons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.SocialIcons img{
+    width: 24px;
+    height: 24px;
+}
+
+.Author{
+    max-width: 1240px;
+    margin: 0 auto;
+    font-size: 12px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Links{
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .Social{
+        flex-direction: column;
+    }
+} 

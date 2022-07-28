@@ -1,0 +1,101 @@
+
+.Container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.Logo{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.Contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Search {
+    margin-right: 0 20px;
+}
+
+.Button_Outlined{
+    border: 1px solid #611F69 !important;
+    color: #611F69 !important;
+    display: block;
+}
+.Button_Contained{
+    border: 1px solid #611F69 !important;
+    background-color: #611F69 !important;
+    color: white;
+    display: block;
+}
+.Button_Contained:hover{
+    border: 1px solid #611F69 !important;
+    background-color: #4B164D !important;
+    color: white;
+}
+
+.Button_Outlined:hover{
+    background-color: unset;
+    border: 2px solid #611F69 !important;
+    padding: 4px 14px;
+}
+
+.Closed{
+    display: none;
+}
+
+.Open{
+    display: block;
+}
+
+.closeIcon{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    z-index: 10;
+}
+
+.MenuIcon {
+    display: none !important;
+    color: black;
+    width: 16px;
+}
+
+/* SMALL SCREENS */
+
+@media only screen and (max-width: 1080px) {
+    nav ul li, .Button_Contained, .Button_Outlined {
+     display: none !important;
+    }
+    .MenuIcon, .Dropdown_Active, .Logo{
+        display: block !important;
+    }
+}

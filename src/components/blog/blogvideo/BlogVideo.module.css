@@ -1,0 +1,35 @@
+.Container{
+    max-width: max-content;
+}
+
+.Container img{
+    width: 225px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.Description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+.Title{
+    font-weight: bold;
+    max-width: 200px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .Container img{
+        width: 335px;
+    }
+}   
+
+@media only screen and (max-width: 420px) {
+    .Container img{
+        width: 200px;
+    }
+}   

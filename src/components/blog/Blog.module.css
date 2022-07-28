@@ -1,0 +1,71 @@
+.Container{
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.Content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+
+.Video{
+    display: flex;
+    gap: 30px;
+}
+
+.Post {
+    width: 40%;
+}
+
+@media only screen and (max-width: 1080px) {
+    /* .Container{
+        padding-top: 260px;
+    } */
+    .Content{
+        margin-bottom: 60px;
+    }
+    
+    video{
+        display: none;
+    }
+    .Post{
+        width: 100%;
+    }
+ }   
+
+@media only screen and (max-width: 768px) {
+    .Container{
+        padding-top: 550px;
+    }
+    .Video{
+        flex-direction: column;
+    }
+ }   
+
+ @media only screen and ( max-height: 830px ) { 
+    .Container{
+        padding-top: 640px;
+    }
+}
+
+ @media only screen and ( max-height: 720px ) { 
+    .Container{
+        padding-top: 800px;
+    }
+}
+
+ @media only screen and ( max-height: 650px ) { 
+    .Container{
+        padding-top: 900px;
+    }
+}
+
+ @media only screen and ( max-height: 580px ) { 
+    .Container{
+        padding-top: 1000px;
+    }
+}

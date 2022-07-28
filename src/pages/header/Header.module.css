@@ -1,0 +1,14 @@
+.Container{
+    background-color: #F6EFE8;
+    padding: 0 40px;
+    max-height: 920px;
+}
+
+/* TABLET */
+
+@media only screen and (max-width: 768px) {
+    .Container{
+        max-height: 140vh;
+        padding: 0 20px;
+    }
+ }   

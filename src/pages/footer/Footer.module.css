@@ -1,0 +1,25 @@
+.Container{
+    padding: 0 40px;
+}
+
+.Container nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 80px 0;
+    border-bottom: 1.4px solid rgb(228, 228, 228);
+}
+
+.Container img{
+    width: 40px;
+    height: 40px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Container nav{
+        flex-direction: column;
+    }
+} 

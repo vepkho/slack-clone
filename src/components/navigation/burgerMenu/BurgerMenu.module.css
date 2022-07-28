@@ -1,0 +1,72 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100%;
+    background-color: #FEFEFE;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.TopNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 40px 20px;
+}
+
+.Logo{
+    width: 120px;
+}
+
+.MenuLinks{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 30px;
+}
+
+.MenuLinks li {
+    font-size: 16px;
+
+}
+
+.Buttons{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 40px 20px;
+    background-color: white;
+    box-shadow: 0px 0px 16px 5px rgba(0,0,0,0.1);
+}
+
+.Buttons Button{
+    height: 60px;
+    width: 50%;
+}
+
+.Button_Outlined{
+    border: 1px solid #611F69 !important;
+    color: #611F69 !important;
+}
+.Button_Contained{
+    border: 1px solid #611F69 !important;
+    background-color: #611F69 !important;
+    color: white;
+}
+
+/* TABLETS */
+
+@media only screen and (max-width: 768px) {
+    .Buttons{
+        flex-direction: column;
+    }
+
+    .Buttons Button{
+        width: 100%;
+    }
+}

@@ -1,0 +1,23 @@
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px; 
+    margin: 0 auto;
+    padding: 40px 0;
+    gap: 20px;
+}
+
+img{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* SMALL SCREENS */
+
+@media only screen and (max-width: 1080px) {
+    .Container{
+        justify-content: space-around;
+    }
+}
